@@ -1,0 +1,154 @@
+header {
+    background-color: #1D7E9C;
+}
+
+footer {
+    background-color: #1D7E9C;
+}
+
+body {
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100vh;
+    background: linear-gradient(#CCDAFF, #fFF);
+    box-sizing: border-box;
+    margin: 0px;
+
+    font-family: 'Roboto';
+}
+
+section {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+
+    border-radius: 1.90rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+
+    padding: rem;  
+    height: 24.313rem;
+    width: 19.188rem;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container > h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.navbar{
+    padding: 0px 1.5rem;
+    width: 100vw;
+    background-color: #1D7E9C;
+    position: fixed;
+    top: 0;
+    margin: 0px;
+}
+
+#user-menu{
+    transform: rotate(90deg)
+}
+
+.navbar, .user{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user{
+    position: relative;
+    right: 3rem;
+    display: flex;
+    justify-content: center;
+    Align-items: center;
+    gap: 0.6rem;
+}
+
+.botao {
+    color: #fff;
+    padding: 1rem;
+
+    width: 7.106rem;
+    height: 2.125rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.938rem;
+}
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 2.063rem;
+
+    margin-top: 3rem;
+}
+
+#confirm {
+    background-color: #6AC263;
+    border-color: #6AC263;
+    border: 0;
+    cursor: pointer;
+}
+
+#cancel {
+    background-color: #AD4D4D;
+    border-color: #AD4D4D;
+    border: 0;
+    cursor: pointer;
+}
+
+.conta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 2rem;
+}
+
+.email {
+    margin-bottom: 1.5rem;
+}
+
+.conta a {
+    text-decoration: none;
+    color: #585858;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #fff;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
